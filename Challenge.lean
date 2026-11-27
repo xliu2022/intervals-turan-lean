@@ -3,7 +3,7 @@ module
 public import Mathlib.Data.Finset.Card
 public import Mathlib.Data.Finset.Image
 public import Mathlib.Data.Nat.Choose.Basic
-public import Mathlib.Data.Nat.Find
+public import Mathlib.Order.Lattice.Nat
 public import Mathlib.Topology.Instances.Real.Lemmas
 
 /-!
@@ -44,16 +44,11 @@ variable {r : ℕ}
 def Free {V : Type u} [DecidableEq V] (F : Set (FiniteGraph r)) (G : RGraph V r) : Prop :=
   ∀ A ∈ F, ¬ ∃ f, A.2.IsEmbedding G f
 
-/-- The largest edge count of an `F`-free host on `n` vertices, with value
-zero if there is no such host. -/
-noncomputable def extremalNumber (F : Set (FiniteGraph r)) (n : ℕ) : ℕ := by
-  classical
-  exact Nat.findGreatest (fun k => ∃ G : RGraph (Fin n) r,
-    Free F G ∧ G.edges.card = k) (n.choose r)
-
-/-- The extremal edge count divided by the number of possible `r`-edges. -/
-noncomputable def extremalDensity (F : Set (FiniteGraph r)) (n : ℕ) : ℝ :=
-  (extremalNumber F n : ℝ) / (n.choose r : ℝ)
+/-- The supremum of the attainable edge counts on `n` vertices. These
+natural numbers are bounded by `n.choose r`, so this is their maximum
+when a host exists. The empty set of counts has supremum zero in `ℕ`. -/
+noncomputable def extremalEdgeCount (F : Set (FiniteGraph r)) (n : ℕ) : ℕ :=
+  sSup {k : ℕ | ∃ G : RGraph (Fin n) r, Free F G ∧ G.edges.card = k}
 
 end SetFamily
 
@@ -65,7 +60,9 @@ family of finite `r`-graphs. -/
 theorem terminal_interval_of_turan_density_limits :
     ∀ r : ℕ, 3 ≤ r → ∃ δ : ℝ, 0 < δ ∧
       ∀ x : ℝ, 1 - δ ≤ x → x ≤ 1 →
-        ∃ F : Set (FiniteGraph r), Tendsto (SetFamily.extremalDensity F) atTop (𝓝 x) := by
+        ∃ F : Set (FiniteGraph r),
+          Tendsto (fun n : ℕ => (SetFamily.extremalEdgeCount F n : ℝ) / (n.choose r : ℝ))
+            atTop (𝓝 x) := by
   sorry
 
 end IntervalsTuran

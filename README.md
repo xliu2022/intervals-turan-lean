@@ -36,7 +36,7 @@ theorem IntervalsTuran.ordinary_density_terminal_interval :
 
 ## Palomar 的独立声明
 
-[Challenge.lean](Challenge.lean) 仅导入 Mathlib，在文件内定义有限一致超图、普通子图嵌入、禁止族和归一化极值数。比较的定理是 `IntervalsTuran.terminal_interval_of_turan_density_limits`。它直接断言，对每个端区间中的实数，都存在一个禁止族，其归一化极值数收敛到该实数。Challenge 中的一个 `sorry` 标记待比较的定理。[Solution.lean](Solution.lean) 从上述无条件主定理取得禁止族，再用 `SetFamily.extremalDensity_tendsto` 证明这个极限。
+[Challenge.lean](Challenge.lean) 仅导入 Mathlib，在文件内定义有限一致超图、普通子图嵌入及禁止族，并把极值数写成可实现边数集合在自然数中的上确界。比较的定理是 `IntervalsTuran.terminal_interval_of_turan_density_limits`。它直接断言，对每个端区间中的实数，都存在一个禁止族，其归一化极值数收敛到该实数。Challenge 中的一个 `sorry` 标记待比较的定理。[Solution.lean](Solution.lean) 先证明这个上确界等于库中的极值数，再从无条件主定理取得禁止族，用 `SetFamily.extremalDensity_tendsto` 得到该极限。
 
 比较的声明和允许的公理见 [comparator.json](comparator.json)。作者、文献、代码来源、GPT 参与情况与复核记录见 [formalization.yaml](formalization.yaml)。在装有 `bubblewrap` 的 Linux 环境中，可在 `lake exe cache get` 和 `lake build` 后运行：
 

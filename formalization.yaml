@@ -76,8 +76,10 @@ fidelity:
     Finite hypergraphs are labelled on Fin n. Containment uses a globally
     injective edge-preserving map, including on isolated vertices. The library
     defines the density as the infimum of the normalized extremal numbers for
-    n ≥ r and proves that the full sequence tends to it. The Challenge states
-    that limit directly. In the proof, a finite-field lift of the
+    n ≥ r and proves that the full sequence tends to it. The Challenge takes
+    the supremum of attainable edge counts and states the limit directly.
+    Solution proves that this supremum equals the library's extremal number
+    for every order, including when no host exists. In the proof, a finite-field lift of the
     Margulis–Gabber–Galil graphs replaces the paper's Cayley expander input.
     The original degree-138 Cayley-family existence claim and a numerical
     value for δ are outside the scope of the recorded theorem.

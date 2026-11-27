@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the library entry point from all committed-style source modules."""
+"""Regenerate the public library imports and the full proof-audit imports."""
 
 from pathlib import Path
 
@@ -23,4 +23,10 @@ The earlier LPS-based conditional lemmas are retained as separate results.
     "module\n\n" + "".join(f"public import {name}\n" for name in modules)
     + "\n" + documentation, encoding="utf-8"
 )
-print(f"Generated library entry point for {len(modules)} modules.")
+audit = root / "verification/AxiomAudit.lean"
+lines = audit.read_text(encoding="utf-8").splitlines()
+start = lines.index("import all IntervalsTuran")
+end = lines.index("", start)
+lines[start:end] = [f"import all {name}" for name in ["IntervalsTuran", *modules]]
+audit.write_text("\n".join(lines) + "\n", encoding="utf-8")
+print(f"Generated public and audit imports for {len(modules)} modules.")

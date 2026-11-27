@@ -53,7 +53,12 @@ theorem terminal_interval_of_turan_density_limits :
   intro x hlo hhi
   obtain ⟨F, hF⟩ := realize x hlo hhi
   refine ⟨F, ?_⟩
-  simpa only [SetFamily.extremalEdgeCount_eq, SetFamily.extremalDensity, hF] using
-    SetFamily.extremalDensity_tendsto F
+  have normalized :
+      (fun n : ℕ => (SetFamily.extremalEdgeCount F n : ℝ) / (n.choose r : ℝ)) =
+        SetFamily.extremalDensity F := by
+    funext n
+    simp only [SetFamily.extremalEdgeCount_eq, SetFamily.extremalDensity]
+  rw [normalized, ← hF]
+  exact SetFamily.extremalDensity_tendsto F
 
 end IntervalsTuran

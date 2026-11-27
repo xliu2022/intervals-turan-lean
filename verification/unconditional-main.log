@@ -1,0 +1,6 @@
+IntervalsTuran.main_theorem : IntervalsTuran.MainTheoremStatement
+IntervalsTuran.ordinary_density_terminal_interval (r : ℕ) :
+  3 ≤ r → ∃ δ, 0 < δ ∧ ∀ (x : ℝ), 1 - δ ≤ x → x ≤ 1 → ∃ forbidden, IntervalsTuran.SetFamily.turanDensity forbidden = x
+'IntervalsTuran.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.ordinary_density_terminal_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+UNCONDITIONAL MAIN VERIFIED: exact target and ordinary-density expansion

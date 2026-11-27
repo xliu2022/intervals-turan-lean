@@ -1,0 +1,46 @@
+name: Verify the Turán interval theorem
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 240
+    env:
+      LEAN_NUM_THREADS: "2"
+      MATHLIB_NO_CACHE_ON_UPDATE: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          auto-config: false
+          use-mathlib-cache: false
+          use-github-cache: false
+      - name: Fetch the pinned Mathlib modules used in this project
+        run: |
+          mapfile -t modules < <(git grep -hE '^((public|meta) +)*import +Mathlib' -- '*.lean' | awk '{print $NF}' | sort -u)
+          lake exe cache get "${modules[@]}"
+      - name: Build the proof library and both Comparator modules
+        run: lake build
+      - name: Check the main theorem and audit proof dependencies
+        run: |
+          lake env lean verification/UnconditionalMain.lean
+          lake env lean verification/AxiomAudit.lean > "$RUNNER_TEMP/axiom-audit.log"
+          tail -n 1 "$RUNNER_TEMP/axiom-audit.log"
+          python3 scripts/audit-source.py
+          git diff --exit-code -- verification/source-manifest.json
+      - name: Compare the statement and proof with Lean and NanoDa
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y bubblewrap
+          export PATH="$(lean --print-prefix)/bin:$PATH"
+          lake comparator --config comparator.json

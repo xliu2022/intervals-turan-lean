@@ -1,0 +1,9 @@
+'IntervalsTuran.Spectrum.clique_uniform_cubic_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.limitValue_lt_clique_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.limitValue_lt_clique_lagrangian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.limitValue_lt_cliqueRatioValue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.cliqueRatioValue_2699_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.cliqueRatioValue_2699_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.cliqueRatioValue_2699_mem_unitInterval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

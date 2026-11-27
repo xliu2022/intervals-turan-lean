@@ -1,0 +1,235 @@
+{
+  "source_project": "Turan Universality in Hypergraph Turan Theory",
+  "author": "Xizhi Liu",
+  "source_snapshot": "Local existing source; exact per-file hashes below.",
+  "files": [
+    {
+      "source_module": "TuranUniversality.Hypergraph.Basic",
+      "source_sha256": "8d1018086ca2ec6f1815ed6b8c3bc2889da8d73bf709de4a321605b6e81b218f",
+      "destination": "IntervalsTuran/Hypergraph/Basic.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Hom",
+      "source_sha256": "370097d3bac35a4b22d582892dc1c9e3826ffd1345136d83b9b5ad10831d51a2",
+      "destination": "IntervalsTuran/Hypergraph/Hom.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Polynomial",
+      "source_sha256": "8869ba4b4b9ab45c333304dbc24f95898888ee23b96c1573b06c06f2580d47ac",
+      "destination": "IntervalsTuran/Hypergraph/Polynomial.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Lagrangian",
+      "source_sha256": "4a750ef07b1bfcb3a6ab0fdd526552a55f8940ed0410210eedcb43361e45fe10",
+      "destination": "IntervalsTuran/Hypergraph/Lagrangian.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Selector.FiniteAverages",
+      "source_sha256": "06c3118c38cd37ba801394f6df25164cdd7a31ca8c05abc4976964bbe2484ba6",
+      "destination": "IntervalsTuran/Selector/FiniteAverages.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.Averages",
+      "source_sha256": "cd15719fa02245262b0ce5fd8cadbc07bf26978d2202fece19d78cc8d662dc93",
+      "destination": "IntervalsTuran/Density/Averages.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.HomDensity",
+      "source_sha256": "8afb4d8349915668bc56d4a8df6c8c1e1d6f907705f886e420e5c7d7cf111ace",
+      "destination": "IntervalsTuran/Density/HomDensity.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.EdgeDensity",
+      "source_sha256": "08a9fd0cb12cbedf8e66e2022f85ecdfae90329ec8af90030eecc9b288e2aa04",
+      "destination": "IntervalsTuran/Density/EdgeDensity.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.WeightedSampling",
+      "source_sha256": "45018bcfddcd0d32e6f0f07c74c29d22c4c16970c31884ae199a1e307dd37a6d",
+      "destination": "IntervalsTuran/Density/WeightedSampling.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.WeightedHom",
+      "source_sha256": "99003daa5ba755fc688f56ac31785c1462b4e3f39aa56f6d90633f5283bd10b4",
+      "destination": "IntervalsTuran/Density/WeightedHom.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.WeightedHomPushforward",
+      "source_sha256": "56399304b46bd229ac6d9a2dedee427346978f9b5a99c8b9f02c59c43c6f3668",
+      "destination": "IntervalsTuran/Density/WeightedHomPushforward.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.FiniteBasis",
+      "source_sha256": "8994bcd9ac9b9ea28cd9cf8625d06906fa20f2462cd678da2986dfae62486b49",
+      "destination": "IntervalsTuran/Hypergraph/FiniteBasis.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Compression",
+      "source_sha256": "4c5ab54eb3108210641727ca2a897e6f86afc92cba16677dce64f42ced96b88c",
+      "destination": "IntervalsTuran/Hypergraph/Compression.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.Extremal",
+      "source_sha256": "cde05e657541b66e6cad7b9475f473a2f3921a15dce1fa8e8b696f21b451cf12",
+      "destination": "IntervalsTuran/Density/Extremal.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Restriction",
+      "source_sha256": "badd46aae4f6cd2109003559af759b5f5486be505049753ee6d9e187d8760167",
+      "destination": "IntervalsTuran/Hypergraph/Restriction.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Blowup",
+      "source_sha256": "099935f1f4dea2ef57d84236982464e4e0a17c54492e476b8d92237120ab65b2",
+      "destination": "IntervalsTuran/Hypergraph/Blowup.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.FamilyBasic",
+      "source_sha256": "b474d652713e4e0f052bf2b320530a1c122dfd8d4efa80dc1fdd4e9ea5af29c5",
+      "destination": "IntervalsTuran/Density/FamilyBasic.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.FamilyExtremal",
+      "source_sha256": "3d5c19d44b31af5dd64e9a4bbe030df3b41518c7bff1f4560b9b2ab62e4f7834",
+      "destination": "IntervalsTuran/Density/FamilyExtremal.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Selector.ProductMixing",
+      "source_sha256": "1f3585446237efa78bff44e772b1522e1c2c54be17d246e3fc5a893c8109ceb0",
+      "destination": "IntervalsTuran/Selector/ProductMixing.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Selector.CrossIntersecting",
+      "source_sha256": "9d45bd47fd19ec05a0bd20275ab423bed46bbc8c011a1f47cfd019bf2b10344a",
+      "destination": "IntervalsTuran/Selector/CrossIntersecting.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.Box",
+      "source_sha256": "78272dd5564b3c40a9f371820fcca698862e6040902188bbc5f897c4d3d964e4",
+      "destination": "IntervalsTuran/Density/Box.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.Cloning",
+      "source_sha256": "bb189dd607b62ab8d50bf2f0b7ed3faf1464af0fb483440ff4a335a114127afe",
+      "destination": "IntervalsTuran/Density/Cloning.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.Sampling",
+      "source_sha256": "134698b5d558fc8cade1bce86de76ea1fb44dd61cc2c03de9c4f0b71efe04050",
+      "destination": "IntervalsTuran/Density/Sampling.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.SampleMoments",
+      "source_sha256": "dc29982b5386d9b0eb11baaa0e86e5c2d153dada20aaf5501d806094f9c9586b",
+      "destination": "IntervalsTuran/Density/SampleMoments.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.FamilyLower",
+      "source_sha256": "a32e84406fbf31f02e03a5466755b47bd6a482ab0426d9666164fc3cb262b13f",
+      "destination": "IntervalsTuran/Density/FamilyLower.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.LagrangianHom",
+      "source_sha256": "7430d1cdd14674aa2e05f544bbf953a642d7c5c0b70d2b387151bf31d91e8217",
+      "destination": "IntervalsTuran/Hypergraph/LagrangianHom.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.SetFamilyBasic",
+      "source_sha256": "1e7f7d74ccc95dd4e46d3171f58a000f144c645dc573addd257c03728d3eb8de",
+      "destination": "IntervalsTuran/Density/SetFamilyBasic.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.SetFamilyExtremal",
+      "source_sha256": "32f564b7707cd12b8fec2eafa9a2d8ce98b1a3eb83c1fd8f1b7430bb86d80499",
+      "destination": "IntervalsTuran/Density/SetFamilyExtremal.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.FiniteSubfamilyInf",
+      "source_sha256": "8cd0aeff6ad3d405bdc480c6edb653d52a223e816a7e00d7c900ce782bb33623",
+      "destination": "IntervalsTuran/Density/FiniteSubfamilyInf.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.BlowupCount",
+      "source_sha256": "a7fcf88d843688140ad7a2887536e4e2f52eafc419694752c23a468f764f04d4",
+      "destination": "IntervalsTuran/Hypergraph/BlowupCount.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Relabel",
+      "source_sha256": "bbf53aa842e8271cb0775cfff1af6a2fe669da3ee3d4324479d1ca2ef8451434",
+      "destination": "IntervalsTuran/Hypergraph/Relabel.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Density.FamilyUpper",
+      "source_sha256": "f85c41d39ce347793c9fff75b999592d3b9fb662a0e8ad9b32f0093e8cf45f0f",
+      "destination": "IntervalsTuran/Density/FamilyUpper.lean",
+      "changes": "Namespace/import rename only."
+    },
+    {
+      "source_module": "TuranUniversality.Uniformity.Suspension",
+      "source_sha256": "e03de3f2c50f6f4308ec6af2b17dbcacd59ee34598427714ec0ba03056ea6102",
+      "destination": "IntervalsTuran/Uniformity/Suspension.lean",
+      "changes": "Namespace/import rename only."
+    },
+    {
+      "source_module": "TuranUniversality.Uniformity.MassOptimization",
+      "source_sha256": "c75f15f6052a5414c23cc3d22a1dda3fb3251762e55549bb54bee86160f5b769",
+      "destination": "IntervalsTuran/Uniformity/MassOptimization.lean",
+      "changes": "Namespace/import rename only."
+    },
+    {
+      "source_module": "TuranUniversality.Spectrum.GraphSubstitution",
+      "source_sha256": "209bb35ef0099f3cb1806655618a0b1ec7ca670fe305110119e20bcbe4379add",
+      "destination": "IntervalsTuran/Spectrum/GraphSubstitution.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Spectrum.SubstitutionValue",
+      "source_sha256": "5a8cba23ad29d0c83d216006f0d462b3fe5022bc15adb238a72c581f33f042a5",
+      "destination": "IntervalsTuran/Spectrum/SubstitutionValue.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Hypergraph.Clique",
+      "source_sha256": "9285162f840fd7a51b3593a8de9768148919282f7f1969e1c550cfd1b96edb2a",
+      "destination": "IntervalsTuran/Hypergraph/Clique.lean",
+      "changes": "Namespace/import rename TuranUniversality to IntervalsTuran only."
+    },
+    {
+      "source_module": "TuranUniversality.Weighted.Symmetric",
+      "source_sha256": "9a98477c9c28e18f53ae61fd1a7bbd8412b281e35e5799c1f1671db8d48fdee3",
+      "destination": "IntervalsTuran/Hypergraph/SymmetricSums.lean",
+      "changes": "Extract only elementary, multiset_esymm_one/cons, multiset_second/third_identity, elementary_second/third_identity; rename namespace; replace broad project import with direct mathlib imports."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+'IntervalsTuran.Spectral.SimpleExpander.q_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.q_large' depends on axioms: [propext]
+'IntervalsTuran.Spectral.SimpleExpander.five_mul_k' depends on axioms: [propext]
+'IntervalsTuran.Spectral.SimpleExpander.four_le_k' depends on axioms: [propext]
+'IntervalsTuran.Spectral.SimpleExpander.card_portField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_tendsto_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.order_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.card_liftVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.base_sum_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.kernel_valency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.kernel_hasZeroSumBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.SimpleExpander.kernel_hasZeroSumBound_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

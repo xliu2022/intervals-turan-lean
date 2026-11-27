@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-26",
+  "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "searched_lean_files": 8536,
+  "pattern": "\\b(?:lubotzky|phillips|sarnak|ramanujan|weakpnt|pnt|expanders?)\\b",
+  "matches": [
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 12,
+      "text": "# Ramanujan's formulas for derivatives of Eisenstein series"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 14,
+      "text": "We prove Ramanujan's formulas for derivatives of the normalised Eisenstein series `E\u2082`, `E\u2084`,"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 58,
+      "text": "/-- **Ramanujan's formula for `E\u2084`**: `\u2202\u2084 E\u2084 = -E\u2086 / 3`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 63,
+      "text": "/-- **Ramanujan's formula for `E\u2086`**: `\u2202\u2086 E\u2086 = -E\u2084\u00b2 / 2`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 123,
+      "text": "/-- **Ramanujan's formula for `E\u2082`**: `\u2202\u2081 E\u2082 = -E\u2084 / 12`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 128,
+      "text": "/-! ### Ramanujan's formulas in terms of `D` -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 130,
+      "text": "/-- **Ramanujan's formula for `E\u2082`**: `D E\u2082 = (E\u2082\u00b2 - E\u2084) / 12`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 134,
+      "text": "/-- **Ramanujan's formula for `E\u2084`**: `D E\u2084 = (E\u2082 E\u2084 - E\u2086) / 3`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/RamanujanFormula.lean",
+      "line": 138,
+      "text": "/-- **Ramanujan's formula for `E\u2086`**: `D E\u2086 = (E\u2082 E\u2086 - E\u2084\u00b2) / 2`. -/"
+    },
+    {
+      "file": "Mathlib/NumberTheory/ModularForms/Derivative.lean",
+      "line": 16,
+      "text": "and (Ramanujan-)Serre derivative $\\partial_k := D - \\frac{k}{12} E_2$ of modular forms."
+    },
+    {
+      "file": "Mathlib/Analysis/Real/Pi/Chudnovsky.lean",
+      "line": 30,
+      "text": "  gives a Ramanujan type formula, and that this is the formula coming from 163,"
+    },
+    {
+      "file": "Mathlib/Analysis/Real/Pi/Chudnovsky.lean",
+      "line": 36,
+      "text": "* [Chen and Glebov, *On Chudnovsky--Ramanujan type formulae*][Chen_Glebov_2018]"
+    }
+  ],
+  "files_present": {
+    "Mathlib/NumberTheory/LSeries/WeakPNT.lean": false,
+    "Mathlib/NumberTheory/LSeries/WienerIkehara.lean": false,
+    "Mathlib/NumberTheory/LSeries/PrimesInAP.lean": true,
+    "Mathlib/NumberTheory/Chebyshev.lean": true
+  }
+}

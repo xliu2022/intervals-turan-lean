@@ -1,0 +1,3 @@
+Source scan passed: 104 files, 18730 lines.
+No forbidden proof placeholders, custom axioms, native_decide, unsafe or kernel-bypass directives.
+This scan is not a proof of the main theorem; run the kernel and inspect its hypotheses.

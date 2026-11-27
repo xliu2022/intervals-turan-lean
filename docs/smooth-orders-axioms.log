@@ -1,0 +1,53 @@
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.nth_strictMono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.nth_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.nth_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.eventually_nth_succ_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.nth_ratio_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.MultiplicativelyDenseAtTop.exists_sequence_above' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.polynomial_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_eq_standard' depends on axioms: [propext]
+'IntervalsTuran.Spectral.pslOrder_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_strictMonoOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.pslOrder_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.exists_mem_Ioc_of_weightedCounting_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.multiplicativelyDenseAtTop_of_weightedCounting_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.infinite_primeParameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.primeParameters_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.primeParameters_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.primeParameters_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.primeParameters_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.primeParameters_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.multiplicativelyDense_primeProgression_of_logSum_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_modEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_mod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_mod_137' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsPrimeSequence_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsOrderSequence_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsOrderSequence_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsOrderSequence_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.lpsOrderSequence_ratio_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

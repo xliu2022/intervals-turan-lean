@@ -1,0 +1,47 @@
+{
+  "provenance": [
+    {
+      "destination": "IntervalsTuran/Spectrum/CliqueStep.lean",
+      "source_path": "/workspace/scratch/2f4694a9bf7a/work/turan-universality-lean/TuranUniversality/Spectrum/CliqueStep.lean",
+      "source_sha256": "79faa0cfa4e905da193d1f5b3d8a191f2aedead97badab9989ea948f7e569daa",
+      "selection": "All declarations before zero_mem_spectrum; actual clique objective, maximum, monotonicity, nonexpansiveness, first-coordinate positivity, strict tail monotonicity.",
+      "adaptation": "Namespace/import adaptation; irrelevant algebraicity and unrestricted-spectrum sections omitted; fresh compilation and kernel axiom audit required."
+    },
+    {
+      "destination": "IntervalsTuran/Spectrum/CliqueRatio.lean",
+      "source_path": "/workspace/scratch/2f4694a9bf7a/work/turan-universality-lean/TuranUniversality/Spectrum/CliqueRecursive.lean",
+      "source_sha256": "a12d367df18b0f63d326c1317b602e414487788c5fd96496679db753939b8b3f",
+      "selection": "First section through cliqueRatioValue_abs_sub_le, retaining compact ratio formula and least fixed-point equivalence.",
+      "adaptation": "Namespace/import adaptation; irrelevant algebraicity and unrestricted-spectrum sections omitted; fresh compilation and kernel axiom audit required."
+    },
+    {
+      "destination": "IntervalsTuran/Spectrum/CliqueFixedPoint.lean",
+      "source_path": "/workspace/scratch/2f4694a9bf7a/work/turan-universality-lean/TuranUniversality/Spectrum/CliqueRecursive.lean",
+      "source_sha256": "a12d367df18b0f63d326c1317b602e414487788c5fd96496679db753939b8b3f",
+      "selection": "Analytic upper bounds and iteration convergence before cliqueRatioValue_mem_spectrum; cliqueRatio_equiv through cliqueStep_strict_second. Excludes all algebraicity/computability and spectrum-membership results.",
+      "adaptation": "Namespace/import adaptation; irrelevant algebraicity and unrestricted-spectrum sections omitted; fresh compilation and kernel axiom audit required."
+    }
+  ],
+  "verification": {
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "fresh_compilation_completed": true,
+    "audited_theorems": 67,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "logs": [
+      "docs/recursive-analysis-axioms.log",
+      "docs/base-parameters-axioms.log"
+    ],
+    "compiled_source_sha256": {
+      "IntervalsTuran/Spectrum/CliqueStep.lean": "7fc6c7cba901fcd3f1d88ccd1bec05a7c75d5848cbc6368456e45a4d38c33ffd",
+      "IntervalsTuran/Spectrum/CliqueRatio.lean": "fb14589b22def6e3a3e2978492d5a62c775cbe151165cdea0a84b5ec64b02ab4",
+      "IntervalsTuran/Spectrum/CliqueFixedPoint.lean": "10437c6d228a1f813d67b13e4da69cf68ad77817868a517048ef7f4ed526a15d",
+      "IntervalsTuran/Construction/RecursivePattern.lean": "67ca18f965309dcdd9d1cca5d51da6cb97481b62e6b8ac7d5c774f63d27567f7",
+      "IntervalsTuran/Construction/BaseParameters.lean": "2615b904d2d0f614f9a532bf6d4fec674bd5f1f66939bf720494d2c6ac5b3a7c"
+    }
+  }
+}

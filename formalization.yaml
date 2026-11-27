@@ -1,0 +1,102 @@
+version: "v0.4"
+
+project:
+  name: "Intervals of hypergraph Turán densities"
+  description: >-
+    For every integer r ≥ 3 there is a δ > 0 such that every real number
+    in [1 − δ, 1] is the ordinary Turán density of a family of finite simple
+    r-uniform hypergraphs. The family may be infinite. Its density is the
+    limit of the largest number of edges in an n-vertex hypergraph avoiding
+    the family, divided by the binomial coefficient n choose r.
+    This formalizes Theorem 1.1 of Liu and Pikhurko.
+  authors: ["Xizhi Liu"]
+  responsible_maintainers: ["Xizhi Liu"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C65", "05C35"]
+
+sources:
+  - title: "Intervals of hypergraph Turán densities"
+    authors: ["Xizhi Liu", "Oleg Pikhurko"]
+    type: paper
+    id: "arXiv:2605.25914v1"
+    location: "https://arxiv.org/abs/2605.25914v1"
+    relationship: formalizes
+    note: >-
+      The recorded statement is Theorem 1.1. The proof retains the recursive
+      interval and amplification arguments and replaces the spectral construction.
+
+related_formalizations:
+  - id: "https://github.com/girving/aks/tree/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f"
+    relationship: adapts
+    note: >-
+      Twelve Apache-2.0 modules from Geoffrey Irving's AKS development supply
+      the Margulis–Gabber–Galil spectral bound and iterated squaring.
+      docs/aks-import.json records the source blobs and porting changes.
+  - id: "TuranUniversality (Xizhi Liu, source snapshots in docs/reused-foundation.json and docs/reused-analysis.json)"
+    relationship: builds-on
+    note: >-
+      The finite-hypergraph, ordinary-density and recursive-analysis foundations
+      were adapted from these local sources. The manifests identify the reused
+      files by SHA-256 and describe the changes.
+  - id: "https://github.com/xliu2022/improved-sidorenko-lean/tree/ba6f109bf01436ca15e55fdf5d35dbea85ffd9c9"
+    relationship: builds-on
+    note: >-
+      Several reused hypergraph and extremal-density modules retain attribution
+      to this earlier Apache-2.0 development in their source headers.
+
+status:
+  scope: >-
+    Theorem 1.1 for every r ≥ 3, both endpoints included. The proof supplies
+    an actual forbidden family for each density. The recorded result is
+    qualitative. The older conditional Cayley-family argument is retained
+    separately in the library.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: other
+      models: ["OpenAI GPT"]
+      tool_setup: >-
+        The maintainer reports that GPT generated most of the original Lean
+        proof and that the author maintains the development.
+    - method: agent
+      models: ["OpenAI GPT-6"]
+      framework: "OpenAI Codex"
+      tool_setup: >-
+        Codex prepared the independent statement, connected the proved density
+        limit to Theorem 1.1 and set up the submission checks.
+
+fidelity:
+  divergences: >-
+    Finite hypergraphs are labelled on Fin n. Containment uses a globally
+    injective edge-preserving map, including on isolated vertices. The library
+    defines the density as the infimum of the normalized extremal numbers for
+    n ≥ r and proves that the full sequence tends to it. The Challenge states
+    that limit directly. In the proof, a finite-field lift of the
+    Margulis–Gabber–Galil graphs replaces the paper's Cayley expander input.
+    The original degree-138 Cayley-family existence claim and a numerical
+    value for δ are outside the scope of the recorded theorem.
+
+review:
+  status: "agent-reviewed"
+  notes: >-
+    Codex compared the quantifiers, permitted forbidden families, embeddings
+    and density normalization with the source paper. The development's proof
+    and axiom audits are in docs/weak-route-review.md and verification/.
+    Independent human review of the Lean proof is undocumented.
+
+alignment:
+  namespace: "IntervalsTuran"
+  statements:
+    - source: "Theorem 1.1 of arXiv:2605.25914v1"
+      lean: "IntervalsTuran.terminal_interval_of_turan_density_limits"
+      module: "Solution"
+      status: proved
+      note: >-
+        ordinary_density_terminal_interval supplies the forbidden family, and
+        SetFamily.extremalDensity_tendsto identifies its limit.

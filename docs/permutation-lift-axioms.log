@@ -1,0 +1,61 @@
+'IntervalsTuran.Spectral.PermutationLift.predecessor_neighbor' depends on axioms: [propext, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.neighbor_predecessor' depends on axioms: [propext, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.neighbor_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.predecessor_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.mem_neighbors_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.neighbors_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.neighbor_eq_iff' depends on axioms: [propext, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.incoming_neighbors_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.incoming_neighbors_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_units_eq_sum_erase_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_neighbors_eq_operator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_fiber_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.square_sum_le_card_mul_sum_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_sq_le_of_fiber_sum_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_fiber_eq_card_mul_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_residual_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_fiberMean_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_sq_add_fiber_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_sq_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.sum_operator_fiber_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_sum_sq_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.operator_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.kernel_valency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.kernel_adjacency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.kernel_hasZeroSumBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.PermutationLift.kernel_hasZeroSumBound_one_sixth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,174 @@
+{
+  "upstream": {
+    "repository": "https://github.com/girving/aks",
+    "commit": "c7fb62ed80a4a610f87f34db0082cadbd7c00c9f",
+    "license": "Apache-2.0",
+    "toolchain": "leanprover/lean4:v4.29.0-rc4",
+    "mathlib": "294b7c26a7cac74c34b43ddace82c85ebff331b1",
+    "licenseBlob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  "local": {
+    "toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "namespacePolicy": "Keep upstream declaration namespaces; rewrite AKS module imports to IntervalsTuran.Vendor.AKS."
+  },
+  "purpose": "Minimal transitive AKS import closure for MGG spectralGap_mgg and iterated graph squaring.",
+  "status": {
+    "sourceFetched": true,
+    "sourceBlobVerification": "All 12 upstream Git blob hashes match after reversing only documented local edits and normalizing the terminal newline.",
+    "localCompilation": "passed: all 12 upstream modules plus Adapter.lean and Audit.lean on the pinned toolchain",
+    "localAxiomAudit": "passed: each of the six audited declarations uses only propext, Classical.choice, Quot.sound",
+    "smoothSpectralFamilyDischarged": false,
+    "scope": "This adapter proves a smooth-order permutation multigraph family. The separate simple bipartite lift is needed for the alternate main-theorem route."
+  },
+  "files": [
+    {
+      "upstream": "AKS/MGG/Spectral.lean",
+      "blob": "03ff163384a24b33528eb9cc9ad8cd27a12e07bb",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/Spectral.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/Spectral.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/Graph/Square.lean",
+      "blob": "d4744a4347978bcb91ba9cabb0a127ed641a48c4",
+      "local": "IntervalsTuran/Vendor/AKS/Graph/Square.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/Graph/Square.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/Defs.lean",
+      "blob": "45cd5f92e03c1cf7e2800b31b794fa700de27072",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/Defs.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/Defs.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/DFT.lean",
+      "blob": "9a0b5cd7318d4612ab3794b0c7d943911747677e",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/DFT.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/DFT.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix.",
+        "Eight `convert` proof steps now explicitly normalize natural-to-integer casts with `push_cast; ring`, required by pinned Lean/mathlib."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/WalkExpansion.lean",
+      "blob": "f9a42ab8ee7e40903021b123db2d171c284b112c",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/WalkExpansion.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/WalkExpansion.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/YoungAssembly.lean",
+      "blob": "68e4401672214ac7f68262e0a6f90ca9d30c5bbb",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/YoungAssembly.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/YoungAssembly.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/ZigZag/RVWBound.lean",
+      "blob": "553a086b8527680d4a305d4508b5a0f8a9b2aaf3",
+      "local": "IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/ZigZag/RVWBound.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/Graph/Regular.lean",
+      "blob": "e9e48c031eeacb537cdc8b2ea85dc307527455e7",
+      "local": "IntervalsTuran/Vendor/AKS/Graph/Regular.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/Graph/Regular.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/Young.lean",
+      "blob": "c1bbdfddbb77650060c95f37b352df0668f18558",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/Young.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/Young.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/ZigZag/RVWInequality.lean",
+      "blob": "53211a2ad1bdb768444d985cc74022b9846a4e4a",
+      "local": "IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/ZigZag/RVWInequality.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/Misc/Fin.lean",
+      "blob": "1f44b6dca58258e29614b2c19e1048d1e86f274b",
+      "local": "IntervalsTuran/Vendor/AKS/Misc/Fin.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/Misc/Fin.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    },
+    {
+      "upstream": "AKS/MGG/YoungDefs.lean",
+      "blob": "0737bb2a6b6afc8565b08b50a3a0612b25457217",
+      "local": "IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean",
+      "url": "https://github.com/girving/aks/blob/c7fb62ed80a4a610f87f34db0082cadbd7c00c9f/AKS/MGG/YoungDefs.lean",
+      "changes": [
+        "Added provenance header.",
+        "Rewrote local AKS module import prefix."
+      ]
+    }
+  ],
+  "localAdditions": [
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Adapter.lean",
+      "purpose": "Permutation-port proof, sixteen-step amplification, and ordinary finite-sum zero-sum norm interface.",
+      "status": "compiled and kernel-dependency audited"
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Audit.lean",
+      "purpose": "Standalone #print axioms audit; intentionally not a module.",
+      "status": "compiled"
+    }
+  ],
+  "axiomAudit": {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declarations": [
+      "spectralGap_mgg",
+      "spectralGap_iterSquare",
+      "IntervalsTuran.Spectral.MGG.mgg_hasPermutationPorts",
+      "IntervalsTuran.Spectral.MGG.graph_gap_le",
+      "IntervalsTuran.Spectral.MGG.portPerm",
+      "IntervalsTuran.Spectral.MGG.sum_square_le"
+    ]
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "files": [
+    {
+      "path": "IntervalsTuran/Analysis/GreedyApproximation.lean",
+      "sha256": "e41375a84cb2a1f6f7b9f4e05f1718a85270c277054c2fa336a09716db94da49",
+      "lines": 189
+    },
+    {
+      "path": "IntervalsTuran/Analysis/MaxPerturbation.lean",
+      "sha256": "f4ff02096ab10da0229e11b598cfc7bbc1275ce942c3597492aca9fb7c5e25a1",
+      "lines": 167
+    },
+    {
+      "path": "IntervalsTuran/Analysis/RecursiveValues.lean",
+      "sha256": "e5666073afb7d86ffdfd4cf22e590478b49d0b010a044ee31f48ec3c2cb15445",
+      "lines": 234
+    },
+    {
+      "path": "IntervalsTuran/Analysis/SmoothSubsequence.lean",
+      "sha256": "4e4475c3dc6c593eeb1005b41ef3eb0717be294a2a7dcbf6aefcbf4414a42b9e",
+      "lines": 163
+    },
+    {
+      "path": "IntervalsTuran/Analysis/TailOverlap.lean",
+      "sha256": "401bca5b46aa4ea57717af9f6a4f0fbefcb3c4e9b9b3326dfba79c2dbcb65136",
+      "lines": 148
+    },
+    {
+      "path": "IntervalsTuran/Analysis/TerminalIntervals.lean",
+      "sha256": "09a5fc3cbc39b6ab90e9792cfcc0325d8ddf0a8ea0a454d9670a154ca24191b3",
+      "lines": 150
+    },
+    {
+      "path": "IntervalsTuran/Construction/BaseParameters.lean",
+      "sha256": "2615b904d2d0f614f9a532bf6d4fec674bd5f1f66939bf720494d2c6ac5b3a7c",
+      "lines": 87
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteGraphs.lean",
+      "sha256": "6749f13382f05486b3572d79a3b289e5f7eff43b801fd686243ac6a3b56e03d8",
+      "lines": 73
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoin.lean",
+      "sha256": "49ce04cc9d85d2cac5edd7726f679da3a1ed82efbb7e9fb8b1975943767e893e",
+      "lines": 193
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoinApprox.lean",
+      "sha256": "bd3c1a697f6fc09302f3766448b0a4adaf0488aa8fbb6aeec47a267a34fd2c73",
+      "lines": 178
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoinBounds.lean",
+      "sha256": "c6db8348646936d9619b0994a445c2ea51a330685bafb59b8ed428cc5b63611d",
+      "lines": 206
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoinClosure.lean",
+      "sha256": "265daab338fc6468eeae419a2f22b21a64c9b5b6de6202d6b454c812ab206164",
+      "lines": 99
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoinCubic.lean",
+      "sha256": "335e08662080a5889df61621df7dd984c59df844ac515ec43e6e69e422a8f8a3",
+      "lines": 49
+    },
+    {
+      "path": "IntervalsTuran/Construction/CompleteJoinWeights.lean",
+      "sha256": "7d5507d94b7e627f2a20d0c9670e054b950c30e5aad934e9d4f0e143c2f66854",
+      "lines": 105
+    },
+    {
+      "path": "IntervalsTuran/Construction/Lifting.lean",
+      "sha256": "59fe4eb36647216ded747deebccc40fc7eda91d5a94333a32fedd71df4df0675",
+      "lines": 118
+    },
+    {
+      "path": "IntervalsTuran/Construction/OuterGraph.lean",
+      "sha256": "0077bed1f25f40adb4ae75a449a6591af054402ec63bc6f27f50027d716095dc",
+      "lines": 121
+    },
+    {
+      "path": "IntervalsTuran/Construction/OuterOptimization.lean",
+      "sha256": "3349f5b838dfa5d01d7855fe06ba9779a687ee7a55fc4e5e3917bbe69429a8cd",
+      "lines": 218
+    },
+    {
+      "path": "IntervalsTuran/Construction/OuterSequence.lean",
+      "sha256": "dcaa854e5bae11ec83cb1676526348ea745a16c6ae486649fb581bdfdb5ff6bf",
+      "lines": 118
+    },
+    {
+      "path": "IntervalsTuran/Construction/OuterStationarity.lean",
+      "sha256": "02fd0b1ee0647e636940c814b2596f8e0b4dd8dba22c4ebdcb5cc687a77da3e5",
+      "lines": 176
+    },
+    {
+      "path": "IntervalsTuran/Construction/PerturbedRecursion.lean",
+      "sha256": "72d9cd790fd699ac2618e431c4bfa3db31922a24f9a2d5f967767217a3776f40",
+      "lines": 133
+    },
+    {
+      "path": "IntervalsTuran/Construction/RecursiveIntervalRealization.lean",
+      "sha256": "d05ef343115491ebeb8157ef9aa502d8959a4584d2826e54debcdbe31102d873",
+      "lines": 115
+    },
+    {
+      "path": "IntervalsTuran/Construction/RecursivePattern.lean",
+      "sha256": "67ca18f965309dcdd9d1cca5d51da6cb97481b62e6b8ac7d5c774f63d27567f7",
+      "lines": 192
+    },
+    {
+      "path": "IntervalsTuran/Construction/SpectralInterval.lean",
+      "sha256": "0621c6a98f8b3219fcac1012aa474aff5dc9b7384656c85d758d8e77e98d5f14",
+      "lines": 30
+    },
+    {
+      "path": "IntervalsTuran/Construction/WeakBaseParameters.lean",
+      "sha256": "d099f989626948099f93f12f069e876e1be77fcca74085ea9cb194bdf03bc324",
+      "lines": 110
+    },
+    {
+      "path": "IntervalsTuran/Construction/WeakOuterGraph.lean",
+      "sha256": "b6f7e486ec315000a269cdd59b5c3bca77896eb5a5879d4141cd1a82cf6b2cf8",
+      "lines": 107
+    },
+    {
+      "path": "IntervalsTuran/Construction/WeakOuterOptimization.lean",
+      "sha256": "50c8b9fd7ecacae1b365c06860fc79de493c4f0fedb5a7a62beb540b71485fe6",
+      "lines": 173
+    },
+    {
+      "path": "IntervalsTuran/Construction/WeakOuterSequence.lean",
+      "sha256": "a134e419b5e9f0b5081ece0da255aef09a68790de18f1c848599bc6d11e57227",
+      "lines": 121
+    },
+    {
+      "path": "IntervalsTuran/Density/Averages.lean",
+      "sha256": "ff642686b512c5851f4271579bc5d9c8e7f27cb06dead527dd139ad104e4da0a",
+      "lines": 97
+    },
+    {
+      "path": "IntervalsTuran/Density/Box.lean",
+      "sha256": "aefc8534d86b181d160c49597e56b9d4245a1e96f84db74b2af72bdc0c9e1ba2",
+      "lines": 168
+    },
+    {
+      "path": "IntervalsTuran/Density/Cloning.lean",
+      "sha256": "f3e50ae0984edd43a4e7b16a535a3ddb5932e6d0593cea22f9c0b30a0efe7417",
+      "lines": 63
+    },
+    {
+      "path": "IntervalsTuran/Density/EdgeDensity.lean",
+      "sha256": "b6b033c21b0446b4d5238e6ecf1ebe769fcf20bc793b9c45e695b7eab363cb31",
+      "lines": 121
+    },
+    {
+      "path": "IntervalsTuran/Density/Extremal.lean",
+      "sha256": "8aabbd3dfeb2411e1027f29f2dbe872eec63d4abf0469d4623a8634287f6dd05",
+      "lines": 231
+    },
+    {
+      "path": "IntervalsTuran/Density/FamilyBasic.lean",
+      "sha256": "fe27fe235c80242dbd3774f676bfef714a70e089d4fc81458c66f7353a526585",
+      "lines": 87
+    },
+    {
+      "path": "IntervalsTuran/Density/FamilyExtremal.lean",
+      "sha256": "2dc34df7ae87d089d6762a0db1d84387e9ef9c102148f0a09b44d66b857b87a6",
+      "lines": 155
+    },
+    {
+      "path": "IntervalsTuran/Density/FamilyLower.lean",
+      "sha256": "979c7245db143e4a68164473501985e9f5ee972a8402b169b152c2979229b9de",
+      "lines": 161
+    },
+    {
+      "path": "IntervalsTuran/Density/FamilyUpper.lean",
+      "sha256": "5c197829f9be6a3eef1450113646738b05d17aa7e964c966c2c437dc3b0c8671",
+      "lines": 114
+    },
+    {
+      "path": "IntervalsTuran/Density/FiniteSubfamilyInf.lean",
+      "sha256": "9957bc1a68adf954507c6f5dedc1e295f037e0b62050dd575a2b071af66069a0",
+      "lines": 123
+    },
+    {
+      "path": "IntervalsTuran/Density/HomDensity.lean",
+      "sha256": "a39fcf626d2d01be88b29ae41b0ab7d87a19c75df3b7aa191960b88b5c7f6e6d",
+      "lines": 136
+    },
+    {
+      "path": "IntervalsTuran/Density/SampleMoments.lean",
+      "sha256": "d02291abe900bfb2825bc42c4c47b5ecab3e7c42cbe7d19ee6d2914f48a7c5a9",
+      "lines": 124
+    },
+    {
+      "path": "IntervalsTuran/Density/Sampling.lean",
+      "sha256": "22e05bd2fcb53c8e1d298ed393e9cc3e24b8857b0786c7322f5a618ff0816357",
+      "lines": 151
+    },
+    {
+      "path": "IntervalsTuran/Density/SetFamilyBasic.lean",
+      "sha256": "675977ba4cf4768bdd109756d4beefdfd1cc544fd48a5125e11179cd76b9b7fa",
+      "lines": 139
+    },
+    {
+      "path": "IntervalsTuran/Density/SetFamilyExtremal.lean",
+      "sha256": "94e4a20f0bf5fbcbcb01a153ef091f2bfcbcf759bf460f4ecafb2bcd3f91d8b6",
+      "lines": 223
+    },
+    {
+      "path": "IntervalsTuran/Density/WeightedHom.lean",
+      "sha256": "77071214b2d49dacddd77ada1ad5ffaa6e532fe766a2c46417371a36b5fe2f1b",
+      "lines": 78
+    },
+    {
+      "path": "IntervalsTuran/Density/WeightedHomPushforward.lean",
+      "sha256": "562ef8026a017e60c2707122997dacc21b7ebecc1885e4054cbc1df160d60f62",
+      "lines": 155
+    },
+    {
+      "path": "IntervalsTuran/Density/WeightedSampling.lean",
+      "sha256": "45dfcf9e30343b644abae5025331b17fc1135ad78360b697a055d34e3e47ea2b",
+      "lines": 139
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Basic.lean",
+      "sha256": "9f027b73cb8ed590988b6d26dd390fb6ad6d6ea2fe7e020aab19fe2fcbfdb119",
+      "lines": 55
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Blowup.lean",
+      "sha256": "491544c0443b58742fcf4bc646901aedd07dbf115e9a4d1a27b173ec3d4f337a",
+      "lines": 116
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/BlowupCount.lean",
+      "sha256": "cac8461d9e28930fa4e55d11dc116205f705b5fae26b2347826f965d6dd9b32c",
+      "lines": 131
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Clique.lean",
+      "sha256": "33e34697426f8056d3653d74c096229a301f8fdef2b3928d42b5b322f08c772b",
+      "lines": 83
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Compression.lean",
+      "sha256": "f56e01254dbc8650168e1fb5bd4a7d1aad715842a2f7b8c243f683bbee349a5d",
+      "lines": 213
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/FiniteBasis.lean",
+      "sha256": "896abfe30e13bdd22c0cec4994ecd00a7093a7a33ebff2b96236a2fa244f374f",
+      "lines": 103
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Hom.lean",
+      "sha256": "accc948b4ece460dcea84f2eed491930768ce191c020217c419168f455d7b9a9",
+      "lines": 82
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Lagrangian.lean",
+      "sha256": "1f0ee0c4e1fcd3f22c1316387e0447b597e557e89d51c566556054ced81f4af7",
+      "lines": 143
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/LagrangianHom.lean",
+      "sha256": "f2662599df276450e4f415e22b228b3ea0ec7e3ae6476be35a60c9e6da63071c",
+      "lines": 36
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Polynomial.lean",
+      "sha256": "23202d7f95a3fab8758030a93b33b878157ae6b14a2d0273afc5f3c71d948d85",
+      "lines": 50
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Relabel.lean",
+      "sha256": "a03e60ce5432736a09fb842a812e8de6ed7ea15d866073bdeef59f5407cb7853",
+      "lines": 95
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/Restriction.lean",
+      "sha256": "3242f9ba462d26fa53d01103e10401a3575734cc7219b11dbe1e33c243831e05",
+      "lines": 148
+    },
+    {
+      "path": "IntervalsTuran/Hypergraph/SymmetricSums.lean",
+      "sha256": "494a728a9885e630a22a20b2bae032d340d86c0872e92036435a9d6fbed163c3",
+      "lines": 70
+    },
+    {
+      "path": "IntervalsTuran/Main.lean",
+      "sha256": "8a224b099b0458d501297008c98fd97e4ee190c68e6bbe925673be4499cf65a1",
+      "lines": 101
+    },
+    {
+      "path": "IntervalsTuran/MainStatement.lean",
+      "sha256": "d7914194519578c538bde82d584e62b402bcb3ca95af23c1e554246e9db321cd",
+      "lines": 37
+    },
+    {
+      "path": "IntervalsTuran/Selector/CrossIntersecting.lean",
+      "sha256": "5af5d453e237749e3645c0a1869be4bb034babf07ab78ad62304df57e3b0a653",
+      "lines": 265
+    },
+    {
+      "path": "IntervalsTuran/Selector/FiniteAverages.lean",
+      "sha256": "ae18528b21c512ad44c328b6a45912c687f95b2f1d4f7e1f23ef8f1a61762df3",
+      "lines": 135
+    },
+    {
+      "path": "IntervalsTuran/Selector/ProductMixing.lean",
+      "sha256": "792dda1476a57abbabdc5d8e41437b5010d30480068f145bc5e342cb5365aa87",
+      "lines": 219
+    },
+    {
+      "path": "IntervalsTuran/Spectral/AdditiveGadgetScaling.lean",
+      "sha256": "bb11d77168a199ce60e415a312041f3fb3df49b4b55af0da1af50caa43c9a7e8",
+      "lines": 110
+    },
+    {
+      "path": "IntervalsTuran/Spectral/AdditiveTripartite.lean",
+      "sha256": "56add0d37117176fa676d4927ab76a913c2cc740565ef88dc4d78fb51b6a0cc1",
+      "lines": 327
+    },
+    {
+      "path": "IntervalsTuran/Spectral/BipartiteKernel.lean",
+      "sha256": "e39c03e44aa4d4e63425a0d2992ad3f190b3c875d1311ed31585324dbd9f7838",
+      "lines": 223
+    },
+    {
+      "path": "IntervalsTuran/Spectral/Family.lean",
+      "sha256": "f48567a1c4816273ae717a0c8209dd5b5b767a127c2179886adc5cc26c4aed1c",
+      "lines": 178
+    },
+    {
+      "path": "IntervalsTuran/Spectral/FiberDesingularization.lean",
+      "sha256": "077eeb6fe3ac298b695e6aa434e0049b98fbb2ee29fa3adfd76071f04bdfcbbe",
+      "lines": 243
+    },
+    {
+      "path": "IntervalsTuran/Spectral/GadgetScaling.lean",
+      "sha256": "13910238e11859592c9d8346702e7e7295453d186bcaf9edcea354d141cd2c52",
+      "lines": 108
+    },
+    {
+      "path": "IntervalsTuran/Spectral/KernelRelabel.lean",
+      "sha256": "59a683b7891d09010ed5e93a5cf1e827ef3483422a2d4b36ed1821983cfc778d",
+      "lines": 91
+    },
+    {
+      "path": "IntervalsTuran/Spectral/Parameters.lean",
+      "sha256": "3fd1cb153e098b3ea7223e6865ee17e429a07bb2495059c4086980808c920b8a",
+      "lines": 103
+    },
+    {
+      "path": "IntervalsTuran/Spectral/PermutationLift.lean",
+      "sha256": "e686ec4e917d1839d6cf5432fe37c2d565f10f692dcd8c90dc478cf5eb092ad8",
+      "lines": 411
+    },
+    {
+      "path": "IntervalsTuran/Spectral/PrimeParameters.lean",
+      "sha256": "edb27e114e558b8d8616b64f7c58a243540f85437345b6a91b2a711cf2c2a097",
+      "lines": 214
+    },
+    {
+      "path": "IntervalsTuran/Spectral/SimpleExpanderFamily.lean",
+      "sha256": "a8862141bcb43650687c1d7d294c8d0e224d78d6a9a1c528f1fe4bc935f97b0e",
+      "lines": 163
+    },
+    {
+      "path": "IntervalsTuran/Spectral/SmoothOrders.lean",
+      "sha256": "403491947f31f6d2d6d92c8ba50d9229888b489109167b8824384a1987890c6a",
+      "lines": 199
+    },
+    {
+      "path": "IntervalsTuran/Spectral/TripartiteEstimate.lean",
+      "sha256": "becfc1ad64cd9422c0f1f5c960a79f1b07c3c55d1fae4da80b4a9f794ecc3f44",
+      "lines": 436
+    },
+    {
+      "path": "IntervalsTuran/Spectral/TripartiteGraph.lean",
+      "sha256": "ac7a71be7e67f3c0b2690e9f4bff41c69d7969e37e201560ac56bc205d54aef6",
+      "lines": 148
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/CliqueFixedPoint.lean",
+      "sha256": "10437c6d228a1f813d67b13e4da69cf68ad77817868a517048ef7f4ed526a15d",
+      "lines": 206
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/CliqueRatio.lean",
+      "sha256": "fb14589b22def6e3a3e2978492d5a62c775cbe151165cdea0a84b5ec64b02ab4",
+      "lines": 210
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/CliqueStep.lean",
+      "sha256": "7fc6c7cba901fcd3f1d88ccd1bec05a7c75d5848cbc6368456e45a4d38c33ffd",
+      "lines": 159
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/GraphSubstitution.lean",
+      "sha256": "eb36bd51f5a3fa3e789b31fa6619c2a7e503601689b07faf2026121c3fe21cf8",
+      "lines": 125
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/SubstitutionApproximation.lean",
+      "sha256": "4669fc795a140b658e39c26064ad6e59d94a699b4e8dce59753a7231f0a1d017",
+      "lines": 94
+    },
+    {
+      "path": "IntervalsTuran/Spectrum/SubstitutionValue.lean",
+      "sha256": "54095aad5f39e2bbb2e87b5d370cfc9b038684abe2a995ecc5306cec656adb9d",
+      "lines": 186
+    },
+    {
+      "path": "IntervalsTuran/Turan/BelowApproximation.lean",
+      "sha256": "666aab0d791c7d05aa6f1095aba63f034e87f5ecca1f10244bacb44956809acf",
+      "lines": 75
+    },
+    {
+      "path": "IntervalsTuran/Turan/LagrangianCap.lean",
+      "sha256": "d4b4f34fa6cc51a5413c08e502a2b122fe50871fbdf4de6adb4e0dceb9ecd580",
+      "lines": 138
+    },
+    {
+      "path": "IntervalsTuran/Turan/RecursiveInterval.lean",
+      "sha256": "c4905503832e7ee55d5c230af0b2a05b3ce9b0ec1b805334d615ca46e9aa486f",
+      "lines": 110
+    },
+    {
+      "path": "IntervalsTuran/Turan/TerminalReduction.lean",
+      "sha256": "b2cdce6e43089dbc87544bdc462c43f300ad9b897a4678a0d54084ab6a9cecf0",
+      "lines": 50
+    },
+    {
+      "path": "IntervalsTuran/Uniformity/MassOptimization.lean",
+      "sha256": "619f32704930181eaa44c0d8aa688ca03d2cdd41db754a3470c60b508af3b737",
+      "lines": 161
+    },
+    {
+      "path": "IntervalsTuran/Uniformity/Suspension.lean",
+      "sha256": "5881e80cfc4b96d0f9c693e304c1181126a487e201a38d1ac1107a2479b81364",
+      "lines": 75
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/Graph/Regular.lean",
+      "sha256": "680d120142739630081c5480bd10f7fdeb649628a125d30c8072bb7d3284129b",
+      "lines": 394
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/Graph/Square.lean",
+      "sha256": "044c22ed6bcce1013553e3251d69ba0e77cc99b929369364bcb055f655a48198",
+      "lines": 279
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Adapter.lean",
+      "sha256": "83bc46dd9c86f858dbb6cf77276088ba0d70d4169fd4bb2c14590dc45db58483",
+      "lines": 158
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Audit.lean",
+      "sha256": "fb5e5e35663e44f0175585fe7ca3f91b5c9a69738c6f04b69a894489d0057eb2",
+      "lines": 16
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/DFT.lean",
+      "sha256": "8122a43c07a1ce848d2caa90e1e1f473d9637af536a293624868b1f371ebc1ff",
+      "lines": 650
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Defs.lean",
+      "sha256": "301d85a39534ffd34662566088d7a595cf2011806fdc559933d6356eaaf0f07b",
+      "lines": 245
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Spectral.lean",
+      "sha256": "5a2c01c57d9bf655a4c2c87f8c4b3667772c844ce039c7dff31f7723051b97f5",
+      "lines": 471
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/WalkExpansion.lean",
+      "sha256": "7a54661a7a5a5c1c091bab58f57af3d5f97ba20821fd88de5aedf9d9fb759f8e",
+      "lines": 172
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/Young.lean",
+      "sha256": "2a7ac6969b6924e5f52c85ff37f72893bc92267312b657497704ba6a67d86865",
+      "lines": 678
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/YoungAssembly.lean",
+      "sha256": "b7cec8d01ae417eedff98e46f36b311349d9ec7e1dd3c68c328270d2a3433654",
+      "lines": 420
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean",
+      "sha256": "cc9b79b26293a33492c6f263db7a72682bd4838a8a6d583e9100d4dc84618fdf",
+      "lines": 689
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/Misc/Fin.lean",
+      "sha256": "b50286947cb0f3a287c42171b0a7f14c4fcf76e9ffad24871cfe590251664f80",
+      "lines": 203
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean",
+      "sha256": "ad0aa6bb9b93b30b8638658de5b600caa1ef40a14e2e14a0918c50ef717fb32e",
+      "lines": 957
+    },
+    {
+      "path": "IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean",
+      "sha256": "da6a96f82ab05cb479704ed2e79ccad563d6e87a621978071476b7f429bfe789",
+      "lines": 419
+    },
+    {
+      "path": "IntervalsTuran.lean",
+      "sha256": "f615a437bcc6e58724ac3d4b97024aa50232d1fdf84d0b5d8c353bfad8df1d41",
+      "lines": 116
+    }
+  ]
+}

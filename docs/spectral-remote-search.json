@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-26",
+  "scope": "Bounded audit of the pinned mathlib source tree, official current mathlib sources, and primary repository candidates located by search; not a claim of universal nonexistence.",
+  "missing_type": "Nonempty IntervalsTuran.Spectral.SmoothSpectralFamily",
+  "local_evidence": "docs/spectral-local-search.json",
+  "upstream_mathlib_commit": "348837d3aa976624060d7c35c183fff587c5a24a",
+  "upstream_mathlib_toolchain": "leanprover/lean4:v4.37.0-rc1",
+  "primary_files": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/blob/348837d3aa976624060d7c35c183fff587c5a24a/Mathlib/NumberTheory/LSeries/WeakPNT.lean",
+      "git_blob_sha": "6237ad722409f3040bbf9ee71c30206c14ef40de"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/blob/348837d3aa976624060d7c35c183fff587c5a24a/lean-toolchain",
+      "git_blob_sha": "0e037f58f9a1aa2d5139277bcc4be0061ebeeb05"
+    },
+    {
+      "url": "https://github.com/karlesmarin/godsil-gutman-lean/blob/9614b005907e423a34cf61c4f71411a341ca30ce/RamanujanBound.lean",
+      "git_blob_sha": "95f62b171382bc86eba476de91a21d26adc6a824"
+    },
+    {
+      "url": "https://github.com/shengtongz/bilu-linial-opus/blob/991a77a002487c48e54f978750dfc8a6b55b8314/BiluLinial/Main.lean",
+      "git_blob_sha": "2b2d89af74943e5b0fde84c1db05a45f848ab3aa"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Combinatorics/SimpleGraph/Cayley.lean",
+      "git_blob_sha": "53e407f7255f72b9d4c1d2c8e6cf034e93e96358"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Combinatorics/SimpleGraph/AdjMatrix.lean",
+      "git_blob_sha": "b7a7b97b3c74ef2b7662bd961cdb317b527be16f"
+    },
+    {
+      "url": "https://github.com/karlesmarin/godsil-gutman-lean/blob/main/MSS/HeilmannLiebBound.lean",
+      "git_blob_sha": "3753f96368f93055949abea877df57e52078f74a"
+    },
+    {
+      "url": "https://github.com/karlesmarin/godsil-gutman-lean/blob/main/MSS/TwoLift.lean",
+      "git_blob_sha": "f03975e06f8f06128457ad41b25dac874a9e09af"
+    }
+  ],
+  "mathlib_code_queries": [
+    {
+      "query": "Ramanujan",
+      "observation": "Returned modular-form/Chudnovsky declarations and bibliography/catalogue matches, no graph-family theorem."
+    },
+    {
+      "query": "Lubotzky",
+      "observation": "No results."
+    },
+    {
+      "query": "Sarnak",
+      "observation": "No results."
+    },
+    {
+      "query": "WeakPNT",
+      "observation": "No indexed results, but direct official-source fetch succeeded. Search absence was not treated as absence of source."
+    },
+    {
+      "query": "LPS",
+      "observation": "Returned unrelated Lp-space matches."
+    }
+  ],
+  "use_status": "No newly inspected upstream theorem has been imported or relied upon in the checked Lean development."
+}

@@ -1,0 +1,825 @@
+[1/104] IntervalsTuran.Analysis.GreedyApproximation
+[2/104] IntervalsTuran.Analysis.MaxPerturbation
+[3/104] IntervalsTuran.Analysis.RecursiveValues
+[4/104] IntervalsTuran.Analysis.SmoothSubsequence
+[5/104] IntervalsTuran.Analysis.TailOverlap
+[6/104] IntervalsTuran.Analysis.TerminalIntervals
+[7/104] IntervalsTuran.Hypergraph.Basic
+[8/104] IntervalsTuran.Hypergraph.Hom
+[9/104] IntervalsTuran.Hypergraph.Polynomial
+[10/104] IntervalsTuran.Hypergraph.Lagrangian
+IntervalsTuran/Hypergraph/Lagrangian.lean:23:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.ProbabilityWeights.apply_le_one`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[11/104] IntervalsTuran.Selector.FiniteAverages
+[12/104] IntervalsTuran.Density.Averages
+[13/104] IntervalsTuran.Density.HomDensity
+[14/104] IntervalsTuran.Density.EdgeDensity
+[15/104] IntervalsTuran.Density.WeightedSampling
+IntervalsTuran/Density/WeightedSampling.lean:102:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.RGraph.orderingFunction_weight`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[16/104] IntervalsTuran.Density.WeightedHom
+IntervalsTuran/Density/WeightedHom.lean:69:27: warning: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.prod_const, ← Finset.mul_sum, div_eq_mul_inv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[17/104] IntervalsTuran.Density.WeightedHomPushforward
+IntervalsTuran/Density/WeightedHomPushforward.lean:87:10: warning: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[18/104] IntervalsTuran.Hypergraph.FiniteBasis
+[19/104] IntervalsTuran.Hypergraph.Compression
+[20/104] IntervalsTuran.Density.Extremal
+[21/104] IntervalsTuran.Hypergraph.Restriction
+[22/104] IntervalsTuran.Hypergraph.Blowup
+[23/104] IntervalsTuran.Density.FamilyBasic
+[24/104] IntervalsTuran.Density.FamilyExtremal
+[25/104] IntervalsTuran.Selector.ProductMixing
+[26/104] IntervalsTuran.Selector.CrossIntersecting
+[27/104] IntervalsTuran.Density.Box
+[28/104] IntervalsTuran.Density.Cloning
+[29/104] IntervalsTuran.Density.Sampling
+[30/104] IntervalsTuran.Density.SampleMoments
+[31/104] IntervalsTuran.Density.FamilyLower
+[32/104] IntervalsTuran.Hypergraph.LagrangianHom
+[33/104] IntervalsTuran.Hypergraph.Relabel
+[34/104] IntervalsTuran.Spectrum.GraphSubstitution
+IntervalsTuran/Spectrum/GraphSubstitution.lean:24:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectrum.sigma_mk_injective`:
+  [Fintype I]
+  [DecidableEq I]
+  [(i : I) → Fintype (V i)]
+  [(i : I) → DecidableEq (V i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [DecidableEq I] [(i : I) → Fintype (V i)] [(i : I) → DecidableEq (V i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectrum/GraphSubstitution.lean:46:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectrum.childEdges_projection`:
+  [Fintype I]
+  [(i : I) → Fintype (V i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [(i : I) → Fintype (V i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectrum/GraphSubstitution.lean:89:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectrum.pushforwardWeight_sigma`:
+  [(i : I) → DecidableEq (V i)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [(i : I) → DecidableEq (V i)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[35/104] IntervalsTuran.Uniformity.Suspension
+IntervalsTuran/Uniformity/Suspension.lean:26:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.RGraph.suspendEdge_disjoint`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[36/104] IntervalsTuran.Uniformity.MassOptimization
+IntervalsTuran/Uniformity/MassOptimization.lean:147:8: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+IntervalsTuran/Uniformity/MassOptimization.lean:147:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+IntervalsTuran/Uniformity/MassOptimization.lean:158:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[37/104] IntervalsTuran.Spectrum.SubstitutionValue
+IntervalsTuran/Spectrum/SubstitutionValue.lean:31:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectrum.substitutionObjective_continuous`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectrum/SubstitutionValue.lean:152:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectrum.sum_powers_le_one`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[38/104] IntervalsTuran.Density.SetFamilyBasic
+[39/104] IntervalsTuran.Density.SetFamilyExtremal
+[40/104] IntervalsTuran.Density.FiniteSubfamilyInf
+[41/104] IntervalsTuran.Density.FamilyUpper
+[42/104] IntervalsTuran.Turan.LagrangianCap
+IntervalsTuran/Turan/LagrangianCap.lean:94:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+[43/104] IntervalsTuran.Turan.BelowApproximation
+[44/104] IntervalsTuran.Construction.CompleteGraphs
+IntervalsTuran/Construction/CompleteGraphs.lean:36:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Construction/CompleteGraphs.lean:56:4: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+[45/104] IntervalsTuran.Spectrum.SubstitutionApproximation
+[46/104] IntervalsTuran.Hypergraph.Clique
+IntervalsTuran/Hypergraph/Clique.lean:16:10: warning: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[47/104] IntervalsTuran.Hypergraph.SymmetricSums
+[48/104] IntervalsTuran.Spectrum.CliqueStep
+[49/104] IntervalsTuran.Spectrum.CliqueRatio
+[50/104] IntervalsTuran.Spectrum.CliqueFixedPoint
+IntervalsTuran/Spectrum/CliqueFixedPoint.lean:92:31: warning: Variable name `n` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _n
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[51/104] IntervalsTuran.Construction.RecursivePattern
+[52/104] IntervalsTuran.Spectral.Parameters
+[53/104] IntervalsTuran.Construction.BaseParameters
+[54/104] IntervalsTuran.Construction.CompleteJoinWeights
+[55/104] IntervalsTuran.Construction.CompleteJoin
+[56/104] IntervalsTuran.Construction.CompleteJoinBounds
+[57/104] IntervalsTuran.Construction.Lifting
+IntervalsTuran/Construction/Lifting.lean:79:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[58/104] IntervalsTuran.Construction.CompleteJoinApprox
+[59/104] IntervalsTuran.Construction.CompleteJoinClosure
+[60/104] IntervalsTuran.Construction.CompleteJoinCubic
+[61/104] IntervalsTuran.Construction.OuterOptimization
+[62/104] IntervalsTuran.Spectral.Family
+[63/104] IntervalsTuran.Spectral.TripartiteEstimate
+[64/104] IntervalsTuran.Spectral.TripartiteGraph
+[65/104] IntervalsTuran.Spectral.GadgetScaling
+[66/104] IntervalsTuran.Construction.OuterGraph
+[67/104] IntervalsTuran.Construction.OuterSequence
+[68/104] IntervalsTuran.Construction.OuterStationarity
+IntervalsTuran/Construction/OuterStationarity.lean:58:31: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Construction/OuterStationarity.lean:76:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Construction/OuterStationarity.lean:77:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Construction/OuterStationarity.lean:97:52: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+IntervalsTuran/Construction/OuterStationarity.lean:105:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Construction.outerLoss_weighted_slope`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[69/104] IntervalsTuran.Construction.PerturbedRecursion
+[70/104] IntervalsTuran.Turan.RecursiveInterval
+[71/104] IntervalsTuran.Construction.RecursiveIntervalRealization
+[72/104] IntervalsTuran.Construction.SpectralInterval
+[73/104] IntervalsTuran.Construction.WeakOuterOptimization
+IntervalsTuran/Construction/WeakOuterOptimization.lean:88:39: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+IntervalsTuran/Construction/WeakOuterOptimization.lean:88:39: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+IntervalsTuran/Construction/WeakOuterOptimization.lean:102:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Construction/WeakOuterOptimization.lean:105:19: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[74/104] IntervalsTuran.Construction.WeakBaseParameters
+[75/104] IntervalsTuran.Spectral.BipartiteKernel
+IntervalsTuran/Spectral/BipartiteKernel.lean:43:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.sum_sq_nonneg`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:107:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.mass_comp`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:114:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.l2Norm_comp`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:127:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.mass_nonneg`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:130:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.variance_nonneg`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:131:25: warning: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:140:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.card_real_ne_zero`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/BipartiteKernel.lean:149:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.adjacency_centered`:
+  [Nonempty V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[76/104] IntervalsTuran.Spectral.AdditiveTripartite
+IntervalsTuran/Spectral/AdditiveTripartite.lean:211:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.gadgetEdge_card`:
+  [AddCommGroup V]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/AdditiveTripartite.lean:214:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.gadgetEdge_eq_iff`:
+  [AddCommGroup V]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/AdditiveTripartite.lean:258:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.tripartiteGraph_vertex_card`:
+  [AddCommGroup V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/AdditiveTripartite.lean:269:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.prod_gadgetEdge`:
+  [AddCommGroup V]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+IntervalsTuran/Spectral/AdditiveTripartite.lean:287:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.Spectral.BipartiteKernel.mass_classes`:
+  [AddCommGroup V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [AddCommGroup V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[77/104] IntervalsTuran.Spectral.AdditiveGadgetScaling
+IntervalsTuran/Spectral/AdditiveGadgetScaling.lean:106:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Spectral/AdditiveGadgetScaling.lean:106:34: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[78/104] IntervalsTuran.Construction.WeakOuterGraph
+IntervalsTuran/Construction/WeakOuterGraph.lean:58:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Construction/WeakOuterGraph.lean:54:44: warning: Variable name `B` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _B
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[79/104] IntervalsTuran.Spectral.FiberDesingularization
+[80/104] IntervalsTuran.Spectral.PermutationLift
+[81/104] IntervalsTuran.Spectral.KernelRelabel
+[82/104] IntervalsTuran.Vendor.AKS.Misc.Fin
+IntervalsTuran/Vendor/AKS/Misc/Fin.lean:69:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/Misc/Fin.lean:91:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[83/104] IntervalsTuran.Vendor.AKS.Graph.Regular
+IntervalsTuran/Vendor/AKS/Graph/Regular.lean:358:15: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/Graph/Regular.lean:364:16: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/Graph/Regular.lean:364:16: warning: This simp argument is unused:
+  ContinuousLinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[84/104] IntervalsTuran.Vendor.AKS.MGG.Defs
+IntervalsTuran/Vendor/AKS/MGG/Defs.lean:90:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/Defs.lean:99:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/Defs.lean:116:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/Defs.lean:125:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[85/104] IntervalsTuran.Vendor.AKS.MGG.DFT
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:111:22: warning: This simp argument is unused:
+  zpow_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:149:53: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:177:53: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:311:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:422:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:456:40: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:456:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:458:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:458:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:468:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:502:40: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:502:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:504:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:504:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:513:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:538:40: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:538:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:540:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:540:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:549:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:582:40: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:582:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:584:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+IntervalsTuran/Vendor/AKS/MGG/DFT.lean:584:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[86/104] IntervalsTuran.Vendor.AKS.MGG.WalkExpansion
+[87/104] IntervalsTuran.Vendor.AKS.MGG.YoungDefs
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:123:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:123:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:124:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:125:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:127:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:127:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:129:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:129:21: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:129:32: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:188:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:275:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:283:24: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:289:24: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:289:58: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:341:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:342:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:351:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+IntervalsTuran/Vendor/AKS/MGG/YoungDefs.lean:352:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+[88/104] IntervalsTuran.Vendor.AKS.MGG.Young
+IntervalsTuran/Vendor/AKS/MGG/Young.lean:401:12: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/Young.lean:430:14: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/MGG/Young.lean:599:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[89/104] IntervalsTuran.Vendor.AKS.MGG.YoungAssembly
+[90/104] IntervalsTuran.Vendor.AKS.Graph.Square
+IntervalsTuran/Vendor/AKS/Graph/Square.lean:155:13: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+IntervalsTuran/Vendor/AKS/Graph/Square.lean:184:13: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+IntervalsTuran/Vendor/AKS/Graph/Square.lean:263:61: warning: `ContinuousLinearMap.coe_sub` has been deprecated: Use `ContinuousLinearMap.toLinearMap_sub` instead
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵c̵o̵e̵_̵s̵u̵b̵C̲o̲n̲t̲i̲n̲u̲o̲u̲s̲L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲t̲o̲L̲i̲n̲e̲a̲r̲M̲a̲p̲_̲s̲u̲b̲
+[91/104] IntervalsTuran.Vendor.AKS.ZigZag.RVWInequality
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:28:0: warning: 
+'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:29:0: warning: 
+'Mathlib.Data.Real.Sqrt' has been deprecated: please replace this import by
+
+import Mathlib.Analysis.Real.Sqrt
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:120:17: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:145:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:166:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:202:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWInequality.lean:319:8: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[92/104] IntervalsTuran.Vendor.AKS.ZigZag.RVWBound
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:209:13: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:209:44: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:221:15: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:221:46: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:231:65: warning: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:279:45: warning: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:453:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:738:45: warning: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:741:12: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:741:43: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:741:12: warning: This simp argument is unused:
+  ContinuousLinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ContinuousLinearMap.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:741:43: warning: This simp argument is unused:
+  ContinuousLinearMap.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ContinuousLinearMap.sub_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:762:15: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:762:46: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:876:59: warning: `ContinuousLinearMap.coe_sub` has been deprecated: Use `ContinuousLinearMap.toLinearMap_sub` instead
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵c̵o̵e̵_̵s̵u̵b̵C̲o̲n̲t̲i̲n̲u̲o̲u̲s̲L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲t̲o̲L̲i̲n̲e̲a̲r̲M̲a̲p̲_̲s̲u̲b̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:889:10: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:903:10: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:889:10: warning: This simp argument is unused:
+  ContinuousLinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [show W (P x) = (W * P) x from rfl, hWP, show P (P x) = (P * P) x from rfl, hP_proj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:903:10: warning: This simp argument is unused:
+  ContinuousLinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hPy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:937:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+IntervalsTuran/Vendor/AKS/ZigZag/RVWBound.lean:948:19: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+[93/104] IntervalsTuran.Vendor.AKS.MGG.Spectral
+IntervalsTuran/Vendor/AKS/MGG/Spectral.lean:106:59: warning: `ContinuousLinearMap.coe_sub` has been deprecated: Use `ContinuousLinearMap.toLinearMap_sub` instead
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵c̵o̵e̵_̵s̵u̵b̵C̲o̲n̲t̲i̲n̲u̲o̲u̲s̲L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲t̲o̲L̲i̲n̲e̲a̲r̲M̲a̲p̲_̲s̲u̲b̲
+[94/104] IntervalsTuran.Vendor.AKS.MGG.Adapter
+IntervalsTuran/Vendor/AKS/MGG/Adapter.lean:124:16: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+IntervalsTuran/Vendor/AKS/MGG/Adapter.lean:138:44: warning: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [RegularGraph.walkCLM_apply, x] at hsq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[95/104] IntervalsTuran.Spectral.SimpleExpanderFamily
+[96/104] IntervalsTuran.Construction.WeakOuterSequence
+[97/104] IntervalsTuran.Hypergraph.BlowupCount
+[98/104] IntervalsTuran.MainStatement
+[99/104] IntervalsTuran.Turan.TerminalReduction
+[100/104] IntervalsTuran.Main
+IntervalsTuran/Main.lean:36:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[101/104] IntervalsTuran.Spectral.SmoothOrders
+[102/104] IntervalsTuran.Spectral.PrimeParameters
+[103/104] IntervalsTuran.Vendor.AKS.MGG.Audit
+'spectralGap_mgg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'spectralGap_iterSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MGG.mgg_hasPermutationPorts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MGG.graph_gap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MGG.portPerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.MGG.sum_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+[104/104] IntervalsTuran
+Built 104 local Lean modules successfully.

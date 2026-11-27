@@ -1,0 +1,20 @@
+module
+
+import IntervalsTuran.Construction.SpectralInterval
+import IntervalsTuran.Construction.Lifting
+
+#print axioms IntervalsTuran.Spectral.auxiliaryPrime_prime
+#print axioms IntervalsTuran.Spectral.FiniteCayley.mixing
+#print axioms IntervalsTuran.Spectral.FiniteCayley.normalized_tripleSum_le
+#print axioms IntervalsTuran.Spectral.FiniteCayley.tripartiteGraph_normalizedPolynomial_le
+#print axioms IntervalsTuran.Spectral.FiniteCayley.tripartiteGraph_raw_fixed_spectral_le
+#print axioms IntervalsTuran.Construction.rawOuter_le
+#print axioms IntervalsTuran.RGraph.completeJoin_three_polynomial
+#print axioms IntervalsTuran.Spectral.FiniteCayley.outerGraph_lagrangian_of_spectral
+#print axioms IntervalsTuran.Spectral.SmoothSpectralFamily.exists_smooth_finite_lagrangians
+#print axioms IntervalsTuran.SetFamily.turanDensity_lagrangianCap_eq_of_tendsto
+#print axioms IntervalsTuran.RGraph.lagrangian_suspension
+#print axioms IntervalsTuran.Spectrum.exists_interval_of_smooth_finite_lagrangians
+#print axioms IntervalsTuran.Spectrum.belowLagrangianApprox_substitutionValue
+#print axioms IntervalsTuran.Spectrum.cliqueStep_right_slope
+#print axioms IntervalsTuran.Spectral.SmoothSpectralFamily.exists_below_lagrangian_interval

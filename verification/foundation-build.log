@@ -1,0 +1,56 @@
+[1] IntervalsTuran/Hypergraph/Basic.lean
+[2] IntervalsTuran/Hypergraph/Hom.lean
+[3] IntervalsTuran/Hypergraph/Polynomial.lean
+[4] IntervalsTuran/Hypergraph/Lagrangian.lean
+IntervalsTuran/Hypergraph/Lagrangian.lean:23:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.ProbabilityWeights.apply_le_one`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[5] IntervalsTuran/Selector/FiniteAverages.lean
+[6] IntervalsTuran/Density/Averages.lean
+[7] IntervalsTuran/Density/HomDensity.lean
+[8] IntervalsTuran/Density/EdgeDensity.lean
+[9] IntervalsTuran/Density/WeightedSampling.lean
+IntervalsTuran/Density/WeightedSampling.lean:102:0: warning: automatically included section variable(s) unused in theorem `IntervalsTuran.RGraph.orderingFunction_weight`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+[10] IntervalsTuran/Density/WeightedHom.lean
+IntervalsTuran/Density/WeightedHom.lean:69:27: warning: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.prod_const, ← Finset.mul_sum, div_eq_mul_inv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[11] IntervalsTuran/Density/WeightedHomPushforward.lean
+IntervalsTuran/Density/WeightedHomPushforward.lean:87:10: warning: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[12] IntervalsTuran/Hypergraph/FiniteBasis.lean
+[13] IntervalsTuran/Hypergraph/Compression.lean
+[14] IntervalsTuran/Density/Extremal.lean
+[15] IntervalsTuran/Hypergraph/Restriction.lean
+[16] IntervalsTuran/Hypergraph/Blowup.lean
+[17] IntervalsTuran/Density/FamilyBasic.lean
+[18] IntervalsTuran/Density/FamilyExtremal.lean
+[19] IntervalsTuran/Selector/ProductMixing.lean
+[20] IntervalsTuran/Selector/CrossIntersecting.lean
+[21] IntervalsTuran/Density/Box.lean
+[22] IntervalsTuran/Density/Cloning.lean
+[23] IntervalsTuran/Density/Sampling.lean
+[24] IntervalsTuran/Density/SampleMoments.lean
+[25] IntervalsTuran/Density/FamilyLower.lean
+[26] IntervalsTuran/Hypergraph/LagrangianHom.lean
+[27] IntervalsTuran/Density/SetFamilyBasic.lean
+[28] IntervalsTuran/Density/SetFamilyExtremal.lean
+[29] IntervalsTuran/Density/FiniteSubfamilyInf.lean
+[30] IntervalsTuran/Hypergraph/BlowupCount.lean
+[31] IntervalsTuran/Hypergraph/Relabel.lean

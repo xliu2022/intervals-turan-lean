@@ -1,0 +1,33 @@
+'IntervalsTuran.Spectral.auxiliaryPrime_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.FiniteCayley.mixing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.FiniteCayley.normalized_tripleSum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.FiniteCayley.tripartiteGraph_normalizedPolynomial_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.FiniteCayley.tripartiteGraph_raw_fixed_spectral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Construction.rawOuter_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.RGraph.completeJoin_three_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.FiniteCayley.outerGraph_lagrangian_of_spectral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectral.SmoothSpectralFamily.exists_smooth_finite_lagrangians' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.SetFamily.turanDensity_lagrangianCap_eq_of_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.RGraph.lagrangian_suspension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectrum.exists_interval_of_smooth_finite_lagrangians' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectrum.belowLagrangianApprox_substitutionValue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'IntervalsTuran.Spectrum.cliqueStep_right_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IntervalsTuran.Spectral.SmoothSpectralFamily.exists_below_lagrangian_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
